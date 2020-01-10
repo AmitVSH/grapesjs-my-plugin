@@ -1,0 +1,23 @@
+{
+  "name": "grapesjs-my-plugin",
+  "version": "1.0.0",
+  "description": "Grapesjs My Plugin",
+  "main": "dist/grapesjs-my-plugin.min.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amitvsh/grapesjs-my-plugin.git"
+  },
+  "scripts": {
+    "start": "grapesjs-cli serve",
+    "build": "grapesjs-cli build",
+    "bump": "npm version patch -m 'Bump v%s'"
+  },
+  "keywords": [
+    "grapesjs",
+    "plugin"
+  ],
+  "devDependencies": {
+    "grapesjs-cli": "^1.0.11"
+  },
+  "license": "MIT"
+}
